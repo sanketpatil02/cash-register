@@ -15,16 +15,14 @@ checkButton.addEventListener("click", function validateAmount() {
             returnAmount.innerText = amountToBeReturned;
             returnChange(amountToBeReturned);
         } else{
-            displayError("cash amount should be greater than bill amount");
+            displayError("Do you wanna wash dishes?");
         }
     } else {
-        displayError("Bill should greater than 0");
+        displayError("Invalid bill amount");
     }
 });
 
 function returnChange(amountToBeReturned) {
-    // console.log("BILL" + billAmount.value);
-    // console.log("cash" + cashGiven.value);
     for(let i = 0; i < notes.length; i++) {
         var noOfNotes = Math.trunc(Number(amountToBeReturned) / Number(notes[i]));
         amountToBeReturned %= Number(notes[i]);
