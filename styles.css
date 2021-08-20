@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #334155;
+    text-align: center;
+    align-items: center;
+}
+
+.cent {
+    /* width: 50%; */
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    /* background-color: rgb(213, 147, 147); */
+    text-align: center;
+    padding: 0.5em 0.5em;
+    font-size: 3rem;
+}
+
+.description {
+    padding: 1rem 1rem;
+    font-size: large;
+}
+
+.input-label {
+    display: block;
+    padding: 1rem 0 0 0;
+    font-size: 1.5rem;
+    margin-right: 3%;
+}
+
+.input {
+    background-color: #fff;
+    border: none;
+    border-radius: 0.2em;
+    color: #000;
+    text-align: left;
+    padding: 0.5em 0.5em;
+}
+
+.input-group {
+    display: block;
+}
+
+.table-responsive {
+    
+}
+
+button {
+    padding: 0.5rem 0.5rem;
+    margin: 0.5rem 0.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.return-table {
+    border: 1px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.class-return {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+caption {
+    font-size: 1.5rem;
+    padding: 0.5rem 0.5rem;
+}
+
+table, th, td {
+    border: 1px solid #fff; 
+    padding: 0.5rem 0.5rem
+}
+/* 
+.no-of-notes {
+    padding: 0.5rem;
+}
+
+.padd {
+    padding: 0.5rem;
+} */
